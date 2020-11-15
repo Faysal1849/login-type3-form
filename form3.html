@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		h1,p,button{
+			font-family: 'Work Sans', sans-serif;
+
+		}
+		.container{
+			padding:65px 220px;
+		}
+		.btn{
+			background-color:#004080;
+			border:1px solid #66b3ff;
+			    padding: 6px 13px;
+                 border-radius: 20px;
+                color:white;
+		}
+		.btn:hover{
+			background-color:blue;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	<form>
+		<h1 style="color:#66b3ff;font-size:25px";>LOGIN</h1><br>
+		<table>
+			<tr>
+				<td>Name :</td>
+				<td>
+					<input type="text" name="name" placeholder="Name">
+				</td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td>
+					<input type="text" name="Password" placeholder="Password">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td>
+					<input type="radio" name="gender">Male
+					<input type="radio" name="gender">Female
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>Mobile :
+				<select>
+					<option>+880</option>
+					<option>+881</option>
+					<option>+882</option>
+					<option>+883</option>
+				</select> 
+
+				<input type="text" name="mobile" placeholder="Number">
+			    </td>
+			
+			</td>
+			</tr>
+		</table><br>
+		<button class="btn">Submit</button>
+	</form>
+</div>
+
+</body>
+</html>
